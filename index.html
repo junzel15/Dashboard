@@ -1,177 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>E & F Tech Cellphone</title>
+    <title>Job Dashboard | By Code Info</title>
     <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.0.7/css/boxicons.min.css"
-    />
+    <!-- Font Awesome Cdn Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <!-- Import Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <nav class="nav-links">
-      <img src="images/ef-logo.png" alt="Logo" />
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#products">Products</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li class="login"><a href="login.html">Login</a></li>
-      </ul>
-    </nav>
-
-    <div id="home" class="banner-section">
-      <div class="banner">
-        <img src="images/banner1.png" alt="Image 1" />
-        <img src="images/banner2.png" alt="Image 2" />
-        <img src="images/banner3.png" alt="Image 3" />
-      </div>
-
-      <div id="home-link" class="content">
-        <h1>Welcome to E & F Tech Cellphones</h1>
-        <p>
-          Connecting You to the Future. Innovation in Your Palm. Your Phone,
-          Your Style. Making Waves in Mobile. Unleash Your Phone Potential.
-          Phone Excellence, Every Call. Empowering Connections. Phone Perfection
-          Personified.
-        </p>
-        <button>Learn More</button>
-      </div>
-    </div>
-
-    <div id="about" class="about-section">
-      <h1>About Us</h1>
-      <p>
-        Welcome to our website! We are a passionate team dedicated to providing
-        you with valuable information, resources, and services.
-      </p>
-      <p>
-        Our mission is to make a positive impact in the world by sharing
-        knowledge and expertise in various fields.
-      </p>
-      <p>
-        Feel free to explore our website and reach out to us if you have any
-        questions or inquiries.
-      </p>
-    </div>
-
-    <header id="products" class="header-products">
-      <h1>Cellphone Shop</h1>
-    </header>
-
-    <div id="products" class="products-section">
-      <div class="product">
-        <img src="images/banner1.png" alt="iPhone" />
-        <h2>iPhone 13 Pro</h2>
-        <p>The latest iPhone with advanced features and stunning design.</p>
-        <p>Price: Php50,000</p>
-        <button>Add to Cart</button>
-      </div>
-      <div class="product">
-        <img src="images/banner2.png" alt="iPhone" />
-        <h2>Vivo V29</h2>
-        <p>>Explore the power and versatility of Vivo V29.</p>
-        <p>Price: Php30,000</p>
-        <button>Add to Cart</button>
-      </div>
-      <div class="product">
-        <img src="images/banner3.png" alt="iPhone" />
-        <h2>Accessories</h2>
-        <p>Your Phone, Your Style.</p>
-        <p>Price: Php5,000</p>
-        <button>Add to Cart</button>
-      </div>
-    </div>
-
-    <header id="services" class="header-services">
-      <h1>Our Services</h1>
-    </header>
-
-    <div id="services" class="services-section">
-      <div class="service">
-        <img src="images/banner1.png" alt="iPhone" />
-        <h2>iPhone Sales</h2>
-        <p>
-          Explore our latest collection of iPhones. From iPhone 12 to iPhone SE,
-          we have everything you need.
-        </p>
-      </div>
-      <div class="service">
-        <img src="images/banner2.png" alt="Android Phones" />
-        <h2>Android Phones Sales</h2>
-        <p>
-          Discover the wide range of Android smartphones available at our store.
-          Choose from top brands like Samsung, Google, and OnePlus.
-        </p>
-      </div>
-      <div class="service">
-        <img src="images/banner3.png" alt="Accessories" />
-        <h2>Accessories</h2>
-        <p>
-          Enhance your smartphone experience with our collection of accessories.
-          Cases, chargers, headphones, and more.
-        </p>
-      </div>
-    </div>
-
-    <header id="contact" class="header-contact">
-      <h1>Contact Support</h1>
-    </header>
-
-    <div id="contact" class="contact-section">
-      <form action="#" method="post">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" required />
-
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required />
-
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
-
-        <input type="submit" value="Submit" />
-      </form>
-    </div>
-
-    <footer>
-      <div class="footer-section">
-        <div class="footer-content">
-          <div class="footer-column">
-            <h3>About Us</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
+    <div class="container">
+      <nav>
+        <div class="navbar">
+          <div class="logo">
+            <h1>Jobs</h1>
           </div>
-          <div class="footer-column">
-            <h3>Contact Us</h3>
-            <p>Email: eftech@gmail.com</p>
-            <p>Phone: 09555261873</p>
+          <ul>
+            <li><a href="#">
+              <i class="fas fa-user"></i>
+              <span class="nav-item">Dashboard</span>
+            </a></li>
+            <li><a href="#">
+              <i class="fas fa-chart-bar"></i>
+              <span class="nav-item">Analytics</span>
+            </a></li>
+            <li><a href="#">
+              <i class="fas fa-tasks"></i>
+              <span class="nav-item">Jobs Board</span>
+            </a></li>
+            <li><a href="#">
+              <i class="fab fa-dochub"></i>
+              <span class="nav-item">Documents</span>
+            </a></li>
+            <li><a href="#">
+              <i class="fas fa-cog"></i>
+              <span class="nav-item">Settings</span>
+            </a></li>
+            <li><a href="#">
+              <i class="fas fa-question-circle"></i>
+              <span class="nav-item">Help</span>
+            </a></li>
+            <li><a href="#" class="logout">
+              <i class="fas fa-sign-out-alt"></i>
+              <span class="nav-item">Logout</span>
+            </a></li>
+          </ul>
+        </div>
+      </nav>
+  
+      <section class="main">
+        <div class="main-top">
+          <p>Explore the universe!</p>
+        </div>
+        <div class="main-body">
+          <h1>Recent Jobs</h1>
+  
+          <div class="search_bar">
+            <input type="search" placeholder="Search job here...">
+            <select>
+              <option>Category</option>
+              <option>Web Design</option>
+              <option>App Design</option>
+              <option>App Development</option>
+            </select>
+            <select class="filter">
+              <option>Filter</option>
+            </select>
           </div>
-          <div class="footer-column">
-            <h3>Follow Us</h3>
-            <ul class="social-links">
-              <!-- Use Box Icons here -->
-              <li>
-                <a href="#"><i class="bx bxl-facebook-square"></i>Facebook</a>
-              </li>
-              <li>
-                <a href="#"><i class="bx bxl-twitter"></i>Twitter</a>
-              </li>
-              <li>
-                <a href="#"><i class="bx bxl-instagram"></i>Instagram</a>
-              </li>
-            </ul>
+  
+          <div class="tags_bar">
+            <div class="tag">
+              <i class="fas fa-times"></i>
+              <span>Programming</span>
+            </div>
+            <div class="tag">
+              <i class="fas fa-times"></i>
+              <span>Design</span>
+            </div>
+            <div class="tag">
+              <i class="fas fa-times"></i>
+              <span>PHP</span>
+            </div>
+            <div class="tag">
+              <i class="fas fa-times"></i>
+              <span>JavaScript</span>
+            </div>
+          </div>
+  
+          <div class="row">
+            <p>There are more than <span>400</span> Jobs</p>
+            <a href="#">See all</a>
+          </div>
+  
+          <!-- Job cards -->
+          <div class="job_card">
+            <div class="job_details">
+              <div class="img">
+                <i class="fab fa-google-drive"></i>
+              </div>
+              <div class="text">
+                <h2>UX Designer</h2>
+                <span>Google Drive - Junior Post</span>
+              </div>
+            </div>
+            <div class="job_salary">
+              <h4>$6.7 - $12.5k /yr</h4>
+              <span>1 day ago</span>
+            </div>
+          </div>
+          
+          <div class="job_card">
+            <div class="job_details">
+              <div class="img">
+                <i class="fab fa-google"></i>
+              </div>
+              <div class="text">
+                <h2>JavaScript Developer</h2>
+                <span>Google - Senior Post</span>
+              </div>
+            </div>
+            <div class="job_salary">
+              <h4>$8.7 - $13.2k /yr</h4>
+              <span>2 days ago</span>
+            </div>
+          </div>
+  
+          <div class="job_card">
+            <div class="job_details">
+              <div class="img">
+                <i class="fab fa-facebook"></i>
+              </div>
+              <div class="text">
+                <h2>Product Developer</h2>
+                <span>Facebook - Manager Post</span>
+              </div>
+            </div>
+            <div class="job_salary">
+              <h4>$11 - $18.5k /yr</h4>
+              <span>2 days ago</span>
+            </div>
+          </div>
+  
+          <div class="job_card">
+            <div class="job_details">
+              <div class="img">
+                <i class="fab fa-git-alt"></i>
+              </div>
+              <div class="text">
+                <h2>Programmer</h2>
+                <span>GitHub - Junior Post</span>
+              </div>
+            </div>
+            <div class="job_salary">
+              <h4>$6 - $11.5k /yr</h4>
+              <span>3 days ago</span>
+            </div>
+          </div>
+  
+          <div class="job_card">
+            <div class="job_details">
+              <div class="img">
+                <i class="fab fa-youtube"></i>
+              </div>
+              <div class="text">
+                <h2>React.js Expert</h2>
+                <span>YouTube - VIP</span>
+              </div>
+            </div>
+            <div class="job_salary">
+              <h4>$12.5 - $25.5k /yr</h4>
+              <span>4 days ago</span>
+            </div>
           </div>
         </div>
-        <div class="footer-bottom">
-          <p>&copy; 2024 E & F Tech. All Rights Reserved.</p>
-        </div>
-      </div>
-    </footer>
-    <script src="main.js"></script>
+      </section>
+      <script src="index.js"></script>
+    </div>
   </body>
 </html>
